@@ -1,0 +1,172 @@
+body{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.khung{
+        background-image: url(./hinh/bg.JPG);
+        padding: 0px 40px;
+        width: 960px;
+}
+#father{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+
+}
+
+
+
+.menu {
+  background-color: #00008B;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.menu a:hover {
+  background-color: #B22222;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #4B0082;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu li a {
+  padding: 10px 15px;
+}
+/* .header{
+    background-color: #009;
+}
+
+.header ul {
+    list-style-type: none;
+} */
+
+/* #menu{
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+} */
+/* li a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+ul li:active{
+    background-color:#CD4D58;
+}
+
+ul li:hover{
+    background-color:  #900;
+   
+} */
+
+/* #sub-menu{
+    display: none;
+    position: absolute;
+ 
+}
+
+#sub-menu li a{
+    width: 200px;
+    display: block;
+   
+}
+li #dropdown{
+    display: inline-block;
+}
+
+#dropdown:hover #sub-menu{
+    display: block;
+}  */
+
+.content{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+.left{
+    width: 310px;
+    overflow: hidden;
+}
+.right{
+    width: 620px;
+    overflow: hidden;
+    margin-top: -13px;
+}
+
+.video{
+    width: 310px;
+    height: auto;
+}
+
+.content-right img{
+    float: left;
+    width: 200px;
+    height: 154px;
+    margin-right: 20px;
+}
+.content-right p{
+    margin-top: -12px;
+    text-align: justify;
+}
+
+.footer{
+     padding:1px 0px;
+     background-color: rgb(6, 6, 75);
+}
+.footer p{
+    text-align: center;
+    color: #ccc;
+   
+}
+
+
+.doan{
+    margin-bottom: -15px;
+}
+h1{
+    font-size: 20px;
+    background-color: #CD4D58;
+    padding: 10px 0px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(6, 6, 75);
+}
